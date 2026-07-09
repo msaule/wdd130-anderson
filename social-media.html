@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <div id="content">
    <header>
         <a class="logo-link" href="index.html">
             <img src="images/Lance_logo.png" alt="Local with Lance logo">
@@ -21,36 +22,69 @@
         </nav>
     </header>
     <main>
-       <section>
-            <img src="images/Utah_county.jpeg" alt="Utah County">
-            <h1> Social Media </h1>
-            <p>Visit our Instagram Page to see more content.</p>
-            <img src="images/Utah_county.jpeg" alt="Utah County">
+        <section class="hero social-hero">
+            <div class="hero-text">
+                <h1>Follow Utah life with Lance.</h1>
+                <p>
+                    Social media is where visitors can see quick updates about Utah life,
+                    local activities, housing tips, and useful information before they make a move.
+                </p>
+            </div>
+            <img src="images/Utah_county.jpeg" alt="Utah County city lights and mountains">
         </section>
-        <section>
-            <h2> Utah Life </h2>
-            <img src="images/Utah_county.jpeg" alt="Utah County">
-            <img src="images/Utah_county.jpeg" alt="Utah County">
-            <img src="images/Utah_county.jpeg" alt="Utah County">
-            <img src="images/Utah_county.jpeg" alt="Utah County">
-            <img src="images/Utah_county.jpeg" alt="Utah County">
-            <img src="images/Utah_county.jpeg" alt="Utah County">
+
+        <section class="quick-info">
+            <h2>What to watch for</h2>
+            <div class="info-grid">
+                <article>
+                    <div class="circle-image">
+                        <img src="images/Utah_county.jpeg" alt="Utah County at night">
+                    </div>
+                    <h3>Utah lifestyle</h3>
+                    <p>Posts can show local views, neighborhoods, restaurants, events, and outdoor places to visit.</p>
+                </article>
+                <article>
+                    <div class="circle-image">
+                        <img src="images/houses.jpeg" alt="Homes near Utah mountains">
+                    </div>
+                    <h3>Housing updates</h3>
+                    <p>Short market updates can help buyers learn what is happening in Utah County.</p>
+                </article>
+                <article>
+                    <div class="circle-image">
+                        <img src="images/Lance_logo.png" alt="Local with Lance logo">
+                    </div>
+                    <h3>Questions</h3>
+                    <p>Visitors can reach out through social media when they want help or more local information.</p>
+                </article>
+            </div>
         </section>
-        <section>
-            <img src="images/Utah_county.jpeg" alt="Utah County">
-            <div id="decoration"></div>
-            <h2>Activities</h2>
-        </section> 
+
+        <section class="feature">
+            <img src="images/houses.jpeg" alt="Homes in Utah below snowy mountains">
+            <div>
+                <h2>Simple updates make Utah easier to understand</h2>
+                <p>
+                    This page should connect visitors to regular lifestyle information and give
+                    them a simple next step when they want to ask questions about Utah or housing.
+                </p>
+                <a class="text-link" href="housing.html">Compare housing options</a>
+            </div>
+        </section>
     </main>
+
     <footer>
         <a class="footer-logo" href="index.html">Local with Lance</a>
-        <a href="about.html">About me</a>
+        <a href="housing.html">Housing</a>
+        <a class="instagram-link" href="social-media.html" aria-label="Social Media">
             <svg viewBox="0 0 24 24" aria-hidden="true">
                 <rect x="5" y="5" width="14" height="14" rx="4"></rect>
                 <circle cx="12" cy="12" r="3"></circle>
                 <circle cx="16.5" cy="7.5" r="1"></circle>
             </svg>
+        </a>
         <p>Client site for Mason Anderson</p>
     </footer>
+    </div>
 </body>
 </html>
