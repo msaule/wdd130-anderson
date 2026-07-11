@@ -143,6 +143,21 @@ h3 {
     line-height: 1.2;
 }
 
+.photo-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    padding: 76px 84px 0;
+}
+
+.photo-row img {
+    width: 100%;
+    height: 175px;
+    display: block;
+    object-fit: cover;
+    background: var(--image-gray);
+}
+
 .feature {
     display: grid;
     grid-template-columns: 320px 1fr;
@@ -260,6 +275,11 @@ footer p {
 
     .quick-info {
         padding: 56px 32px;
+    }
+
+    .photo-row {
+        grid-template-columns: 1fr;
+        padding: 48px 32px 0;
     }
 
     .feature img {
